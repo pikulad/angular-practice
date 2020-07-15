@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var module_1 = require("./module");
+var obj = new module_1.add(40, 50);
+var obj1 = new module_1.sub(50, 50);
+var obj2 = new module_1.div(40, 50);
+var obj3 = new module_1.mul(40, 50);
+obj.sum();
+obj1.sub1();
+obj2.div1();
+obj3.mul1();
